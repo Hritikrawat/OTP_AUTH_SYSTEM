@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  background-color: #242424;
+}
+.mainDiv{
+    width: 400px;
+    height: 400px;
+    background-color: #242424;
+    color:greenyellow;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+input , button {
+    width: 50%;
+    border-radius: 10px ;
+    font-size: large;
+}
+
+button{
+    width: 40%;
+
+}
+input{
+    height:2.5em;
+    border: 1px solid gray;
+    text-align: center;
+    /* transition: ; */
+}
+input:hover{
+    transform: scale(1.1);
+    border: 1.5px solid white
+    
+}
+button:hover{
+    transform: scale(0.99);
+    background-color: rgb(96, 94, 94)
+    
+}
